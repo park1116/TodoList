@@ -28,7 +28,7 @@ public class InsertServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		request.setCharacterEncoding("utf-8");
-		response.setContentType("text/html;charset utf-8;");
+		response.setContentType("text/html; charset=utf-8;");
 	
 		String title = request.getParameter("what");
 		String name = request.getParameter("who");

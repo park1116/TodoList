@@ -21,7 +21,7 @@ public class TodoDao {
 		Connection con = null;
 		PreparedStatement ps = null;
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/db";
+		String url = "jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=utf8";
 		String id = "root";
 		String pw = "1234";
 		try {
@@ -56,7 +56,7 @@ public class TodoDao {
 		Connection con = null;
 		PreparedStatement ps = null;
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/db";
+		String url = "jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=utf8";
 		String id = "root";
 		String pw = "1234";
 		try {
@@ -99,7 +99,7 @@ public class TodoDao {
 		Connection con = null;
 		PreparedStatement ps = null;
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/db";
+		String url = "jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=utf8";
 		String id = "root";
 		String pw = "1234";
 		try {
